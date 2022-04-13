@@ -38,9 +38,18 @@
           </nav>
 
           <a href="mailto:info@devstudio.com" class="subpages link header-mail"
-            >info@devstudio.com</a
+            ><svg class="subpages" alt="mail icon" width="16" height="12">
+              <use href="./images/sprite.svg#icon-mail"></use>
+            </svg>
+            info@devstudio.com</a
           >
-          <a href="tel:+48111111111" class="subpages link header-tel">+48 111 111 111</a>
+
+          <a href="tel:+48111111111" class="subpages link header-tel"
+            ><svg class="phone-icon" alt="phone icon" width="10" height="16">
+              <use href="./images/sprite.svg#icon-phone"></use>
+            </svg>
+            +48 111 111 111</a
+          >
         </div>
       </header>
     </div>
@@ -246,24 +255,65 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
-        <address>
-          <ul class="address-list-footer list">
-            <li class="footer-list-li">
-              <a href="https://goo.gl/maps/sYoEFAyqpLNGCCFF7" class="address-place subpages link"
-                >Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li class="footer-list-li">
-              <a href="mailto:info@example.com" class="address-mail subpages link"
-                >info@example.com</a
-              >
-            </li>
-            <li class="footer-list-li">
-              <a href="tel:+48111111111" class="address-phone subpages link">+48 111 111 111</a>
-            </li>
-          </ul>
-        </address>
+        <ul class="list footer-flex">
+          <li>
+            <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
+            <address class="address">
+              <ul class="address-list-footer list">
+                <li class="footer-list-li">
+                  <a
+                    href="https://goo.gl/maps/sYoEFAyqpLNGCCFF7"
+                    class="address-place subpages link"
+                    >Warszawa, Aleje Jerozolimskie 21</a
+                  >
+                </li>
+                <li class="footer-list-li">
+                  <a href="mailto:info@example.com" class="address-mail subpages link"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-list-li">
+                  <a href="tel:+48111111111" class="address-phone subpages link">+48 111 111 111</a>
+                </li>
+              </ul>
+            </address>
+          </li>
+          <li>
+            <div class="social-link-footer">
+              <h3 class="footer-sign">Dołącz do nas</h3>
+              <ul class="social-footer list">
+                <li clas="social-footer-item link">
+                  <a class="social-a-footer" href="#">
+                    <svg class="social-icon-footer" alt="Instagram icon">
+                      <use href="/images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li clas="social-footer-item link">
+                  <a class="social-a-footer" href="#">
+                    <svg class="social-icon-footer" alt="Twitter icon">
+                      <use href="/images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li clas="social-footer-item link">
+                  <a class="social-a-footer" href="#">
+                    <svg class="social-icon-footer" alt="Facebook icon">
+                      <use href="/images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li clas="social-footer-item link">
+                  <a class="social-a-footer" href="#">
+                    <svg class="social-icon-footer" alt="LinkedIn icon">
+                      <use href="/images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>

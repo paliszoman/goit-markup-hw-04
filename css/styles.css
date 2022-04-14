@@ -168,7 +168,7 @@ padding-bottom: 9px;
 .social-footer{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 44px;
 }
 .address{
